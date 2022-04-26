@@ -64,7 +64,7 @@ footer p {
     padding-right: 10px;
     font-style: italic;
     font-size: .75em;
-    float: right;
+    text-align: center;
 }
 
 footer a {
@@ -107,6 +107,7 @@ img {
     width: 35%;
     margin: 5px;
     float: right;
+    margin-bottom: 10px;
 }
 
 #navbar {
