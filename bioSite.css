@@ -84,12 +84,38 @@ img {
 
 ul {
   list-style-type: none;
+}
 
+#left{
+  grid-column-start: 1;
+}
+
+#center{
+  grid-column-start: 2;
+}
+
+#himage {
+  align-content: center;
+  width: 95%;
+  margin: 5px;
+  padding-left: 10px;
+  margin-bottom: 10px;
+  grid-column-start: 3;
 }
 
 #list {
   width: 300px;
-  max-width: 300px;
+  height: 200px;
+}
+
+#hcontainer {
+  align-content: center;
+  width: 97%;
+  margin: auto;
+  padding: 10px;
+  background-color: #fff6ff;
+  display: grid;
+  grid-template-columns: 3;
 }
 
 #container {
@@ -114,12 +140,13 @@ ul {
 }
 
 #image {
-    align-content: center;
-    width: 35%;
-    margin: 5px;
-    float: right;
-    margin-bottom: 10px;
+  align-content: center;
+  width: 35%;
+  margin: 5px;
+  float: right;
+  margin-bottom: 10px;
 }
+
 
 #navbar {
     overflow: hidden;
